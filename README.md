@@ -1,6 +1,6 @@
 <p>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2916348220" alt="Steam Workshop Link">
-  <img src="https://img.shields.io/static/v1?label=Steam&message=Workshop&color=blue&logo=steam&link=https://steamcommunity.com/sharedfiles/filedetails/?id=2916348220"/>
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2992791856" alt="Steam Workshop Link">
+  <img src="https://img.shields.io/static/v1?label=Steam&message=Workshop&color=blue&logo=steam&link=https://steamcommunity.com/sharedfiles/filedetails/?id=2992791856"/>
   </a>
 </p>
 
@@ -9,7 +9,7 @@
 ![Mod Version](https://img.shields.io/badge/Mod_Version-1.0.0-blue.svg)
 ![RimWorld Version](https://img.shields.io/badge/Built_for_RimWorld-1.4-blue.svg)
 ![Harmony Version](https://img.shields.io/badge/Powered_by_Harmony-2.3-blue.svg)\
-![Steam Downloads](https://img.shields.io/steam/downloads/2916348220?colorB=blue&label=Steam+Downloads)
+![Steam Downloads](https://img.shields.io/steam/downloads/2992791856?colorB=blue&label=Steam+Downloads)
 ![GitHub Downloads](https://img.shields.io/github/downloads/feldoh/EasyIdeoSwitching/total?colorB=blue&label=GitHub+Downloads)
 
 This mod simply adds a big button on the ideology page to set your primary ideology.
