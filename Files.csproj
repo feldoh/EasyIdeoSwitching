@@ -11,7 +11,7 @@
 	<OutputPath>..\$(SolutionName) - Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <ReleaseFiles Include="About\**;Common\**;1.4\**;loadFolders.xml;LICENSE;README.md" Exclude="About\About-Debug.xml;About\About-Release.xml;About\About.xml;1.4\Source\**" />
+    <ReleaseFiles Include="About\**;Common\**;1.4\**;loadFolders.xml;LICENSE;README.md" Exclude="About\*.png~;About\About-Debug.xml;About\About-Release.xml;About\About.xml;1.4\Source\**" />
     <AboutFiles Include="About\About-Debug.xml;About\About-Release.xml" />
   </ItemGroup>
   <ItemGroup>
