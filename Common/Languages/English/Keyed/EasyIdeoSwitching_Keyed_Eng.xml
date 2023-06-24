@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EasyIdeoSwitching_MakeFluidButton>Make Fluid</EasyIdeoSwitching_MakeFluidButton>
+  <EasyIdeoSwitching_MakeNonFluidButton>Make Non-Fluid</EasyIdeoSwitching_MakeNonFluidButton>
+  <EasyIdeoSwitching_MakePrimaryButton>Make Primary</EasyIdeoSwitching_MakePrimaryButton>
+	<EasyIdeoSwitching_MakeFluidButton_Info>This will make your Ideoligion fluid</EasyIdeoSwitching_MakeFluidButton_Info>
+	<EasyIdeoSwitching_MakeFluidButton_Warning>Warning, Your Ideoligion has been adopted by {0} factions and {1} pawns out in the world other than your own. Be very sure you want to change this, maybe save first.</EasyIdeoSwitching_MakeFluidButton_Warning>
+	<EasyIdeoSwitching_MakeNonFluidButton_Info>This will make your Ideoligion non-fluid, removing development points etc, this can be reversed but you will have lost any development points and any other tracked features of fluid ideoligeons.</EasyIdeoSwitching_MakeNonFluidButton_Info>
+	<EasyIdeoSwitching_MakeFluidButton_ChangeFluidTitle>Change Ideo Fluidity</EasyIdeoSwitching_MakeFluidButton_ChangeFluidTitle>
+	<EasyIdeoSwitching_BlockPrimaryIdeologyChanges>Block Primary Ideology Changes</EasyIdeoSwitching_BlockPrimaryIdeologyChanges>
+	<EasyIdeoSwitching_AllowChangingFluidity>Show the option to make an Ideoligion fluid</EasyIdeoSwitching_AllowChangingFluidity>
+</LanguageData>

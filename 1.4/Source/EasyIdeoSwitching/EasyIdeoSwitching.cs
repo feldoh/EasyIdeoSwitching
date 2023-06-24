@@ -10,8 +10,6 @@ namespace EasyIdeoSwitching
 
 		public Mod(ModContentPack content) : base(content)
 		{
-			Log.Message("Hello world from EasyIdeoSwitching");
-
 			// initialize settings
 			settings = GetSettings<Settings>();
 
@@ -31,7 +29,7 @@ namespace EasyIdeoSwitching
 
 		public override string SettingsCategory()
 		{
-			return "EasyIdeoSwitching";
+			return "Easy Ideo Switching";
 		}
 	}
 }

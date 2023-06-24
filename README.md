@@ -12,13 +12,18 @@
 ![Steam Downloads](https://img.shields.io/steam/downloads/2992791856?colorB=blue&label=Steam+Downloads)
 ![GitHub Downloads](https://img.shields.io/github/downloads/feldoh/EasyIdeoSwitching/total?colorB=blue&label=GitHub+Downloads)
 
-This mod simply adds a big button on the ideology page to set your primary ideology.
+This mod simply adds:
+* A big button on the ideology page to set your primary ideoligion.
+* A big button on the ideology page to make your primary ideoligion fluid if it isn't or flip it back if it is.
+  * Be warned, this is inspired by a similar button in the `Intentional Proselytism` mod, but that mod does not allow you to change it back and only allows this if there are no other pawns or factions with that ideoligion so practically it tends to disappear early. I'm unsure why it adds this restriction given you can convert and release other pawns with your fluid ideoligion normally. Given this, be careful when using this option it will warn you if there are other pawns or factions with the target ideoligion. It is hidden by default if you have the original mod but you can make it appear by ticking `Show the option to make an Ideoligion fluid` in the settings.
 
 It also has an option in the settings to stop the primary changing when new people are converted so that you can run a colony with multiple ideologies where the primary one is not just the one with the most people.
 
 This mod was made to support the Mr Samuel Streamer [Rimworld: Blood Empire collection](https://steamcommunity.com/sharedfiles/filedetails/?id=2988953577) for his [YouTube series](https://www.youtube.com/playlist?list=PLNWGkqCSwkOEi0bxBObdEGd9_pv9odh78)  
 
-This mod is inspired by the character editor button which does the same thing but is hidden away.
+## Inspiration
+* This mod is inspired by the [Character Editor](https://steamcommunity.com/sharedfiles/filedetails/?id=1874644848) button has a button to change the primary ideoligion but is hidden away.
+* The fluidity changing button is inspired by the mak fluid button from [Intentional Proselytism](https://steamcommunity.com/sharedfiles/filedetails/?id=2615025149) which has a button to make an ideoligion fluid.
 
 ## Contributing
 Please make a pull request with any suggestions you might have and we will be glad to consider them for inclusion.
