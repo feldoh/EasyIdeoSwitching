@@ -9,4 +9,5 @@
 	<EasyIdeoSwitching_MakeFluidButton_ChangeFluidTitle>Change Ideo Fluidity</EasyIdeoSwitching_MakeFluidButton_ChangeFluidTitle>
 	<EasyIdeoSwitching_BlockPrimaryIdeologyChanges>Block Primary Ideology Changes</EasyIdeoSwitching_BlockPrimaryIdeologyChanges>
 	<EasyIdeoSwitching_AllowChangingFluidity>Show the option to make an Ideoligion fluid</EasyIdeoSwitching_AllowChangingFluidity>
+	<EasyIdeoSwitching_LedByConsidersIdeoRoles>Stop resentment of non-ideo faction leader if their leader role is filled</EasyIdeoSwitching_LedByConsidersIdeoRoles>
 </LanguageData>
