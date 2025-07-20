@@ -51,3 +51,6 @@ Portions of the materials used to create this content/mod are trademarks and/or 
 * MrSamuelStreamer for the content
 * Ludeon for the game
 * Ranger Rick for the 1.5 corner tag
+
+## Continuity
+See [CONTINUITY.md](CONTINUITY.md) for details on continuity and succession of this project in the event of my death or long-term absence.
