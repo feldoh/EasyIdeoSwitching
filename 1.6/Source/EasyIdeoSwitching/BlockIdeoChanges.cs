@@ -10,7 +10,7 @@ namespace EasyIdeoSwitching
 	public static class BlockIdeoChanges
 	{
 		[HarmonyPrefix]
-		public static bool Prefix(List<Ideo> ___ideosMinor)
+		public static bool Prefix(FactionIdeosTracker __instance, List<Ideo> ___ideosMinor)
 		{
 			if (!Mod.settings.BlockPrimaryIdeoChanges || !ModsConfig.IdeologyActive || Current.ProgramState != ProgramState.Playing ||
 			    Find.WindowStack.IsOpen<Dialog_ConfigureIdeo>()) return true;
@@ -18,6 +18,7 @@ namespace EasyIdeoSwitching
 			___ideosMinor.AddRange(PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_Colonists
 				.Where(p => p.HomeFaction == Faction.OfPlayer)
 				.Select(p => p.Ideo)
+				.Where(ideo => ideo != null && ideo != __instance.PrimaryIdeo)
 				.Distinct());
 			return false;
 		}
