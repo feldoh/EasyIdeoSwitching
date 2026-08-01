@@ -58,6 +58,7 @@
     <None Include="../../../Assets/**" LinkBase="Assets" />
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="Build" Condition=" '$(Configuration)' == 'Release' ">
+    <Message Importance="normal" Text="PostBuild running: Configuration=$(Configuration); Platform=$(Platform); SteamModsPath='$(SteamModsPath)'" />
     <RemoveDir Condition="Exists('../../../Release')" Directories="../../../Release" />
     <Delete Condition="Exists('../../../EasyIdeoSwitching.zip')" Files="../../../EasyIdeoSwitching.zip" />
     <Copy SourceFiles="@(AboutFiles)" DestinationFiles="@(AboutFiles->'../../../Release/About/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
@@ -72,8 +73,12 @@
     </ItemGroup>
     <RemoveDir Condition="Exists('$(SteamModsPath)')" Directories="$(SteamModsPath)/$(ModName)" ContinueOnError="true" />
     <Copy Condition="Exists('$(SteamModsPath)')" SourceFiles="@(ReleaseFolder)"
-          DestinationFiles="@(ReleaseFolder->'$(SteamModsPath)/$(ModName)/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+          DestinationFiles="@(ReleaseFolder->'$(SteamModsPath)/$(ModName)/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true">
+      <Output TaskParameter="CopiedFiles" ItemName="_SteamCopiedFiles" />
+    </Copy>
+    <Message Importance="High" Condition="Exists('$(SteamModsPath)')" Text="Steam copied count: @(_SteamCopiedFiles->Count()) to $(SteamModsPath)/$(ModName)." />
   </Target>
+
   <PropertyGroup>
     <StartAction>Program</StartAction>
     <StartProgram>$(SolutionDir)..\..\..\..\RimWorldWin64.exe</StartProgram>
